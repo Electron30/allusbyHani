@@ -1,0 +1,125 @@
+.custom-color-footer{
+    background-color: rgb(202, 212, 199);
+}
+.u-layout-row{
+    
+    justify-content: space-between;
+}
+.u-footer .u-logo-image-1{
+    margin-top: 0.5rem;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width:575px) {
+    .u-layout-row{
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+    .upper-row{
+        display: flex;
+        flex-direction: row;
+         
+        justify-content: space-around;
+    }
+    .lower-row
+    {
+        display: flex;
+        flex-direction: row;
+         
+        justify-content: space-around;
+    }
+    .u-footer .u-text-1{
+         
+    }
+    
+    .u-footer .u-text-3{
+         
+    }
+    
+    .u-footer .u-text-5{
+         
+    }
+    
+    .u-footer .u-text-7{
+         
+    }
+    
+    .u-sidebar.u-spacing-14, .u-position.u-spacing-14, .u-block-content.u-spacing-14{
+         
+        
+        padding-right: 0;
+    }
+    .u-position-1{
+        
+    }
+    .u-position{
+        
+    }
+    .u-footer .u-position-3{
+        
+    }
+    .u-footer .u-position-4{
+        
+    }
+    .u-footer .u-container-layout-1 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-1 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-2 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-2 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-3 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-3 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-4 {
+        padding: 0px !important;
+      }
+      .u-footer .u-container-layout-4 {
+        padding: 0px !important;
+      }
+      .u-sidebar.u-spacing-14, .u-position.u-spacing-14, .u-block-content.u-spacing-14{
+        padding: 0;
+        padding-top: 5px;
+      }
+}
+@media (max-width:991px) {
+    .upper-row{
+        justify-content: space-around;
+        min-width: 100%
+
+    }
+    .lower-row{
+        justify-content: space-around;
+        min-width: 100%
+    }
+    
+}
+.no-pad{
+    margin: 0.5rem !important;
+}
+.u-nav-link-custom-footer{
+    color: rgb(41, 41, 41);
+    font-family: Montserrat, sans-serif !important;
+}
+.links-footer{
+    display: flex;
+    flex-direction: column;
+}
+.links-footer:hover{
+    cursor: pointer;
+}
+@media (max-width:400px) {
+.u-footer .u-position-4{
+  width: 136px;
+}
+}
